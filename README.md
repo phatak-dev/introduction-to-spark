@@ -1,5 +1,5 @@
 
-Follow the following steps to install Spark and get the example code.
+Follow the following steps to install Spark and to get the example code.
 -------------------
 
 ## 1. Installing Spark
@@ -49,7 +49,7 @@ If spark-shell starts successfully , then spark is installed on your machine.
 ## 3. Getting code
 
 
-Clone code from
+Clone this repository to get example code and sample data.
 
 
 
