@@ -74,32 +74,34 @@
 
 ### groupByKey
 
-   val groupByCustomer = customerPair.groupByKey
-   groupByCustomer.collect()
+    val groupByCustomer = customerPair.groupByKey
+    groupByCustomer.collect()
 
 
 ### lookUp
 
-  val lookUpCustomer = customerPair.lookup("1")
+    val lookUpCustomer = customerPair.lookup("1")
 
 
 ### joins
 
-   val customerRDD = sc.textFile("customers.csv")
-   val customerInfo = customerRDD.map(value => {
-     val cols = value.split(",")
+    val customerRDD = sc.textFile("customers.csv")
+    val customerInfo = customerRDD.map(value => {
+      val cols = value.split(",")
      (cols(0), cols(1))
-   })
+    })
 
-   val joinedRDD = customerPair.join(customerInfo)
+    val joinedRDD = customerPair.join(customerInfo)
 
 
 
 ## Caching
 
-  customerRDD.cache()
-  //Removing underneath file customers.csv
-  customerRDD.collect()
+    customerRDD.cache()
+
+    //Removing underneath file customers.csv
+
+    customerRDD.collect()
 
 
 
