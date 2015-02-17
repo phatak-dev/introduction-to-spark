@@ -1,6 +1,6 @@
 
-Follow the following steps to install Spark and to get the example code.
--------------------
+This repository contains example code and sample data for *Introduction to Apache Spark* session. Follow the below steps
+to setup spark on your machine. Also clone this repository to get code and data.
 
 ## 1. Installing Spark
 
@@ -10,7 +10,7 @@ You should have Java installed on your machine.
 
 ### Step 1.2 : Download Spark from Apache website
 
-Download spark from [apache site](http://www.apache.org/dyn/closer.cgi/spark/spark-1.2.1/spark-1.2.1-bin-hadoop2.4.tgz)
+Download spark from [apache website](http://www.apache.org/dyn/closer.cgi/spark/spark-1.2.1/spark-1.2.1-bin-hadoop2.4.tgz)
 
 
 ### Step 1.3: Install
@@ -21,7 +21,7 @@ Download spark from [apache site](http://www.apache.org/dyn/closer.cgi/spark/spa
 
 #### Windows
 
-* Use 7zip to extract the file. You have to extract twice
+* Use 7zip to extract the file. You have to extract twice.
 
 
 * Copy  spark-1.2.1-bin-hadoop2.4 folder to root of C drive.
