@@ -52,5 +52,11 @@ If spark-shell starts successfully , then spark is installed on your machine.
 Clone this repository to get example code and sample data.
 
 
+## 4. Up to date
+
+Please pull before coming to the session to get the latest code.
+
+
+
 
 
