@@ -48,8 +48,11 @@ If spark-shell starts successfully , then spark is installed on your machine.
 
 ## 3. Getting code
 
+Clone this repository  using following command
 
-Clone this repository to get example code and sample data.
+        git clone https://github.com/phatak-dev/introduction-to-spark.git
+
+to get example code and sample data.
 
 
 ## 4. Up to date
